@@ -43,6 +43,7 @@ updateGuessesLeft();
 
 document.onkeyup = function(event) {
     guessesLeft--;
+    
   var userGuess = String.fromCharCode(event.keyCode).toLowerCase();
 
   guessedLetters.push(userGuess);
